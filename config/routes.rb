@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources(:history)
 
   get '/poop' => 'history#index'
+  get '/poopy' => 'history#poopy'
 
   #get '/ruelala' => 'pages#show_default'
 
